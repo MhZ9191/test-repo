@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sec-head {
+  padding: 20px;
+}
+
+.div-head {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.div-head h1 {
+  color: red;
+  animation: col 2s infinite alternate;
+}
+
+@keyframes col {
+  from {
+    color: red;
+  }
+  to {
+    color: blue;
+  }
+}
